@@ -23,6 +23,11 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+
+}
+.to-do-app h2 img{
+    width: 30px;
+    margin-left: 10px;
 }
 .list-icon{
     width: 30px;
@@ -70,7 +75,9 @@ ul li::before{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    border: 1px solid black;
+    background-image: url(images/uncheck.svg);
+    background-size: cover;
+    background-position: center;
     top: 8px;
     left: 8px;
 }
@@ -79,7 +86,8 @@ ul li.checked{
     text-decoration: line-through;
 }
 ul li.checked::before{
-    background-color: green;
+     background-image: url(images/check_5610944.png);
+   
 }
 
 ul li span{
